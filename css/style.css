@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin:0.75rem 0;
+}
+
+/* UTILITY CLASSES */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+.text-primary{
+    color: #93cb52;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.l-heading{
+    font-size:4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading{
+    font-size:2rem;
+    margin: 0.75rem 0; 
+    line-height: 1.1;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    color: #fff;
+    background: #93cb52;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: #7ab436;
+}
+
+.btn-dark{
+    color: #fff;
+    background: #333;
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.p-1{
+    padding:0 1rem;
+}
+.p-2{
+    padding:0 2rem;
+}
+.p-3{
+    padding:0 3rem;
+}
+.bg-dark{
+    background: #333;
+}
+.bg-primary{
+    background: #93cb52;
+    color: bg-primary;
+}
+
+
+
+/* Navbar */
+#navbar{
+    position:sticky;
+    top:0;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index:1;
+    padding: 1rem;
+}
+
+#navbar ul{
+    display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+#navbar ul li a{
+    color:#fff; 
+    padding:0.75rem;
+    margin:0 0.25rem;
+}
+
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 10px;
+}
+
+/* Showcase */
+
+#showcase{
+    background: #333 url('../img/glass.jpg') no-repeat center center/cover;
+    height: 90vh;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* align-content:center ; It increases the width of the button */
+
+    color: #fff;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+
+    /* a=0.5 denotes transparency of bg-img */
+    background: rgba(0,0,0,0.5);
+}
+
+/* Boxes */
+
+#what .items{
+    display: flex;
+}
+
+#what .items .item{
+    flex:1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Who Am I ? */
+
+#who{
+    display: flex;
+}
+
+#who div{
+  flex:1;
+}
+
+#who .who-img{
+    background: url('../img/whoami.jpg') no-repeat center center/cover;
+}
+
+#who .who-text{
+    margin: 50px;
+    color: white;
+}
+#who .who-text ul{
+    list-style: none;
+}
+
+.list li{
+    border-bottom: #444 dotted 1px;
+    padding: 0.5rem 0;
+}
+
+#clients .items{
+    display: flex;
+}
+
+#clients .items img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* Section : Contacts */
+
+#contact{
+    display: flex;
+    color: white;
+}
+
+#contact .contact-form ,  #contact .map{
+    flex:1;
+}
+
+#contact .map{
+    background: url(../img/map.jpg) no-repeat center center/cover;
+}
+
+
+
+#contact .contact-form .form-group{
+    margin:0.75rem 0.75rem;
+}
+
+#contact .contact-form .btn{
+    margin:0.75rem 2rem;
+    width:50%;
+}
+
+#contact .contact-form label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width:60%;
+    padding:0.5rem 0.75rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#main-footer p{
+    color: #fff;
+}
+

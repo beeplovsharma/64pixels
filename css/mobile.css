@@ -1,0 +1,51 @@
+#what .items{
+    display: block;
+    padding:1rem;
+}
+
+/* Smartphones*/
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .logo{
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+#navbar ul{
+    padding: 0.5rem;
+}
+
+.l-heading{
+    font-size: 50px;
+}
+.lead{
+    font-size: 20;
+}
+
+#showcase{
+    overflow:hidden;
+}
+
+#who{
+    display: block;
+}
+
+#who .who-img{
+    display: none;
+}
+
+#clients .container{
+    padding-bottom: 50px;
+}
+
+#contact
+{
+    display: block;
+}
+
+#contact h2{
+    text-align: left;
+}

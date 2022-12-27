@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>64Pixels | Beeplov</title>
+    <script
+      src="https://kit.fontawesome.com/63033c74f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1100px)"
+      href="css/widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+  </head>
+  <body id="home">
+    <!-- Nav Bar -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fa-solid fa-camera"></i> 64</span
+        >Pixels
+      </h1>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header : Showcase -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">
+          <span class="text-primary"> Let's Capture</span> Every Moment !
+        </h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          voluptatem consequuntur consectetur odio nam rerum, facilis corrupti
+          cumque placeat quaerat. Cumque nemo natus itaque, suscipit quaerat nam
+          sint consectetur magni.
+        </p>
+        <a href="#what" class="btn">Read More</a>
+      </div>
+    </header>
+
+    <!-- Section: What We Do -->
+    <section id="what" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-leading text-center">
+          <span class="text-primary">What</span> I Do ?
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-camera fa-2x"></i>
+            <div>
+              <h3>Photography</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                blanditiis nihil iure quidem repudiandae. Accusantium.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-sharp fa-solid fa-palette fa-2x"></i>
+            <div>
+              <h3>Graphic Designing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                provident neque mollitia perferendis, consequatur voluptates?
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-video fa-2x"></i>
+            <div>
+              <h3>Videography</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A iste,
+                culpa ad suscipit labore facilis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who Am I ? -->
+    <section id="who" class="bg-dark">
+      <div class="who-img"></div>
+      <div class="who-text py-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> Am I ?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum enim
+          dignissimos voluptate dolore pariatur, minus recusandae? Sed animi
+          delectus saepe aperiam quae? Rerum dignissimos eius voluptatibus ab
+          unde error itaque.
+        </p>
+        <h3>My Profile</h3>
+        <ul class="list">
+          <li>Beeplov Sharma, CEO</li>
+          <li>Photographer</li>
+          <li>Coder</li>
+          <li>Editor</li>
+          <li>Graphic Designer</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clients" class="py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">Our</span> Clients
+        </h2>
+        <div class="items py-1">
+          <div class="logo-1">
+            <img src="/img/logo-1.png" alt="logo-1" />
+          </div>
+          <div class="logo-2">
+            <img src="/img/logo-2.png" alt="logo-2" />
+          </div>
+          <div class="logo-3">
+            <img src="/img/logo-3.png" alt="logo-3" />
+          </div>
+          <div class="logo-4">
+            <img src="/img/logo-4.png" alt="logo-4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section : Contact -->
+    <section id="contact">
+      <div class="contact-form bg-primary py-2">
+        <h2 class="m-heading p-2">Contact Us</h2>
+        <p class="p-2">Please use the form below to contact me.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark" />
+        </form>
+      </div>
+
+      <div class="map">
+        <!-- <img src="./img/map.jpg" alt="map" /> -->
+      </div>
+    </section>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <p>Copyright &copy; 2022, 64Pixels, All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
